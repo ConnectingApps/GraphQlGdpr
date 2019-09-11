@@ -42,6 +42,11 @@ cd GraphQlGdpr.Api
 dotnet run
 ````
 
-The docker statement is just because a database is needed. 
+The docker statement is just because a database is needed. Open the playground in your web browser.
+
+You need this url:
+<https://localhost:5001/ui/playground>
+or this url:
+<http://localhost:5000/ui/playground>
 
 
