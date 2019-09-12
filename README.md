@@ -1,7 +1,7 @@
 # GraphQlGdpr
-This is a demonstration of how GraphQl and Entity Framework can help your company being General Data Protection Regulation (GDPR) compliant. The GDPR requires companies to restrict the usage of personal data. If there is no purpose to use the data, the data should not be used. GraphQl can help companies with that.
+This is a demonstration of how [GraphQL](https://graphql.org/) and Entity Framework can help your company being General Data Protection Regulation (GDPR) compliant. The GDPR requires companies to restrict the usage of personal data. If there is no purpose to use the data, the data should not be used. GraphQL can help companies with that.
 
-GraphQl is an alternative to REST. It makes it easy to specify the data that is really needed. Here is an example of such a query.
+GraphQL is an alternative to REST. Requests are done with GraphQL queries being part of a web request. These queries make it easy to specify the data that is really needed. Here is an example of such a query.
 
 ```graphql
 {
@@ -38,7 +38,7 @@ Here are the command-line statements to use:
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=PassaP@s" -p 1433:1433 --name GraphQlGdpr -d mcr.microsoft.com/mssql/server:2017-latest
 git clone https://github.com/ConnectingApps/GraphQlGdpr.git
 cd GraphQlGdpr
-cd GraphQlGdpr.Api 
+cd GraphQlGdpr.Api
 dotnet run
 ````
 
@@ -48,5 +48,3 @@ You need this url:
 <https://localhost:5001/ui/playground>
 or this url:
 <http://localhost:5000/ui/playground>
-
-
